@@ -1,0 +1,16 @@
+{
+  "float": [
+    {
+      "name": "page_text_font_size",
+      "value": "50fp"
+    },
+    {
+      "name": "DANGER_THRESHOLD",
+      "value": "1.0"
+    },
+    {
+      "name": "WARNING_THRESHOLD",
+      "value": "3.0"
+    }
+  ]
+}

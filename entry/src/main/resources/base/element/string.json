@@ -1,0 +1,68 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "microphone_permission_reason",
+      "value": "This App needs BLE for approximate location"
+    },
+    {
+      "name": "index_scanning",
+      "value": "Scanning"
+    },
+    {
+      "name": "target_name",
+      "value": "SafeZone: Searching..."
+    },
+    {
+      "name": "danger",
+      "value": "DANGER"
+    },
+    {
+      "name": "warning",
+      "value": "WARNING"
+    },
+    {
+      "name": "safe_zone",
+      "value": "SAFE ZONE"
+    },
+    {
+      "name": "connected_message",
+      "value": "Connected to Target Device"
+    },
+    {
+      "name": "scan_message",
+      "value": "Scanning for nearby devices..."
+    },
+    {
+      "name": "scan_stopped",
+      "value": "Scan stopped"
+    },
+    {
+      "name": "button_stop",
+      "value": "Stop Scan"
+    },
+    {
+      "name": "button_start",
+      "value": "Start Scan"
+    },
+    {
+      "name": "button_adv_stop",
+      "value": "Stop Advertising"
+    },
+    {
+      "name": "button_adv_start",
+      "value": "Start Advertising"
+    }
+  ]
+}
