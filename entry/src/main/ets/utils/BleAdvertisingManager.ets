@@ -8,7 +8,6 @@ export class BleAdvertisingManager {
 
   // 1. Define the BLE advertising status reporting event.
   onReceiveEvent = (data: ble.AdvertisingStateChangeInfo) => {
-    console.info(TAG, 'bluetooth advertising state = ' + JSON.stringify(data));
     AppStorage.setOrCreate('advertiserState', data.state);
   };
 
@@ -69,7 +68,6 @@ export class BleAdvertisingManager {
     try {
       ble.on('advertisingStateChange', this.onReceiveEvent);
       this.advHandle = await ble.startAdvertising(advertisingParams);
-      console.info(TAG, 'startAdvertising success, advHandle=' + this.advHandle);
     } catch (err) {
       console.error(TAG, `errCode: ${(err as BusinessError).code}, errMessage: ${(err as BusinessError).message}`);
     }

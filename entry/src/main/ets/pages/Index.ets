@@ -13,7 +13,7 @@ const pulseAnimationOptions: AnimateParam = {
   duration: 1000,
   iterations: -1, // Infinite loop
   playMode: PlayMode.Alternate,
-  tempo: 1.0,
+  tempo: 1.0
 };
 
 @Entry
@@ -25,8 +25,8 @@ struct SafeZoneApp {
   @State dialColor: Resource = $r('app.color.COLOR_SAFE');
   @State isDanger: boolean = false;
   @State targetName: ResourceStr = $r('app.string.target_name');
-  @State glowScale: number = 1.0;
-  @State isAdvertising: boolean = false;
+  private glowScale: number = 1.0;
+  private isAdvertising: boolean = false;
   @State isScanning: boolean = false;
 
   private scanInterval: number = -1;

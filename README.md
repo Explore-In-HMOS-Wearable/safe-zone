@@ -6,11 +6,12 @@ SafeZone is an innovative sample application built for HarmonyOS-based wearable 
 
 By utilizing the ConnectivityKit Kit and the standard Bluetooth API, the application measures the approximate distance between two nearby compatible wearables (via RSSI calculation). The primary user benefit is instantaneous and visual notification when the distance falls below a configurable safe threshold, promoting smart social and environmental awareness on a compact platform.
 
-<p align="left">
+# Preview
+<div align="left">
     <img src="screenshots/ss1.png" width="25%" />
-    <img src="screenshots/ss2.png" width="25%" />
-    <img src="screenshots/ss3.png" width="25%" />
-</p>
+    <img src="ScreenShots/ss2.png" width="25%" />
+    <img src="ScreenShots/ss3.png" width="25%" />
+</div>
 
 
 # Use Cases
@@ -24,16 +25,18 @@ By utilizing the ConnectivityKit Kit and the standard Bluetooth API, the applica
 
 - Collaborative Learning/Training: Facilitates exercises where maintaining formation or specific distances between team members is mandatory (e.g., medical training, military drills).
 
-# Technology Stack
+# Technology
+
+## Stack
 **Languages**: ArkTS, ArkUI  
-**Frameworks**: HarmonyOS SDK 5.1.0  
-**Tools**: DevEco Studio 5.1.0 Beta1
 **Libraries/Kits**:
 - @kit.ArkUI
 - @kit.AbilityKit
 - @kit.ConnectivityKit
 - @kit.BasicServicesKit
 
+## Required Permissions
+- "ohos.permission.ACCESS_BLUETOOTH"
 
 # Directory Structure
 ```

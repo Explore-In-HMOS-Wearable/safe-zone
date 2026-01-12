@@ -93,7 +93,7 @@ export class BleScanManager {
 
   public parseScanResult(data: ArrayBuffer) {
     let advData = new Uint8Array(data);
-    if (advData.byteLength == 0) {
+    if (advData.byteLength === 0) {
       console.warn(TAG, 'adv data length is 0');
       return;
     }
@@ -109,7 +109,7 @@ export class BleScanManager {
     let curPos = 0;
     while (curPos < advData.byteLength) {
       let length = advData[curPos++];
-      if (length == 0) {
+      if (length === 0) {
         break;
       }
 
