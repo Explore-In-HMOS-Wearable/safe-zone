@@ -9,8 +9,8 @@ By utilizing the ConnectivityKit Kit and the standard Bluetooth API, the applica
 # Preview
 <div align="left">
     <img src="screenshots/ss1.png" width="25%" />
-    <img src="screenShots/ss2.png" width="25%" />
-    <img src="screenShots/ss3.png" width="25%" />
+    <img src="screenshots/ss2.png" width="25%" />
+    <img src="screenshots/ss3.png" width="25%" />
 </div>
 
 
@@ -99,3 +99,4 @@ By utilizing the ConnectivityKit Kit and the standard Bluetooth API, the applica
 **SafeZone** is distributed under the terms of the **MIT License**.  
 
 See the [LICENSE](LICENSE) file for more information.  
+
